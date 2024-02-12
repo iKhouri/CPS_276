@@ -8,9 +8,9 @@ for ($i = 1; $i <= $Mainlistitems; $i++) {
 
     
     for ($j = 1; $j <= $Sublistitems; $j++) {
-        $htmlString .= "<li>$j</li>";
+        $htmlstring .= "<li>$j</li>";
     }
-    $htmlString .= '</ul></li>';
+    $htmlstring .= '</ul></li>';
 }
 
 $htmlstring .= '</ul>';
