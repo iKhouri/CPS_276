@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload PDF</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload PDF</h1>
+        <form action="fileUploadProc.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="fileName">File Name:</label>
+                <input type="text" class="form-control" name="fileName" id="fileName">
+            </div>
+            <div class="form-group">
+                <label for="pdfFile">Choose PDF File:</label>
+                <input type="file" class="form-control-file" name="pdfFile" id="pdfFile">
+            </div>
+            <button type="submit" class="btn btn-primary" name="submit">Upload</button>
+            
+        </form>
+    </div>
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
